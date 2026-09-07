@@ -4620,24 +4620,12 @@
                     }
                 }
             ],
-            "args": [
-                {
-                    "name": "path1",
-                    "isOptional": true
-                },
-                {
-                    "name": "path2",
-                    "isOptional": true
-                },
-                {
-                    "name": "",
-                    "isVariadic": true
-                },
-                {
-                    "name": "pathN",
-                    "isOptional": true
-                }
-            ]
+            "args": {
+                "name": "path",
+                "description": "Path on the node to report disk usage for",
+                "isOptional": true,
+                "isVariadic": true
+            }
         },
         {
             "name": "version",
